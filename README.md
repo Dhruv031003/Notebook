@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# NoteBook
+This is a Web App to write notes.
+- This app is made by React.Js as Frontend.
+- Node.js & Express.js are used in Backend.
+- MongoDB is used as the Database.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Landing Page
+- Landing page provides the options to Login or Signup.
 
-## Available Scripts
+  Login Page
+![image](https://user-images.githubusercontent.com/91516121/210305679-f169467f-2f0d-44bc-b1d5-495dc9d0c19f.png)
 
-In the project directory, you can run:
+  Signup Page
+![image](https://user-images.githubusercontent.com/91516121/210306385-467e76cc-1b14-4a4a-8582-ddb9e3dc29eb.png)
 
-### `npm start`
+## Home
+  - After Login/Signup you are directed to the Home page where you can add new notes, edit the already existing ones or delete any notes.
+  ![image](https://user-images.githubusercontent.com/91516121/210306091-2f4d13b4-0340-4c2c-97d2-a0cde4737a1b.png)
+  
+    - Adding a note
+    ![image](https://user-images.githubusercontent.com/91516121/210306143-0921bd4f-dcb4-49fb-b9ef-de5968892f31.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    - Edit option opens a Modal where you can make any changes to the note content and save it.
+    ![image](https://user-images.githubusercontent.com/91516121/210306226-5d37ce62-1ffa-4bf7-902b-31972b0c8911.png)
+  
+    - Delete option deletes the note.
+    ![image](https://user-images.githubusercontent.com/91516121/210306268-ac41c3b2-466f-48ce-9f4f-993c7c6e8ada.png)
+  
+  - Logout button after logging out redirects the user to the landing page.
